@@ -25,5 +25,5 @@ SELECT customer_id, amount AS new_name
 /* "AS" statement is used just after the Column/Function result,
    whose name needs to be changed.  */
 FROM payment
-WHERE amount > 2    -- "WHERE new_name > 2" will give error
+WHERE amount > 2;    -- "WHERE new_name > 2" will give error
  
